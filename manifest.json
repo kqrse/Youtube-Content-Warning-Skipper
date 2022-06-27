@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Youtube Content Warning Skipper",
+  "description": "Skip annoying Content Warnings from Youtube",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "run_at": "document_start",
+      "js": ["script.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
