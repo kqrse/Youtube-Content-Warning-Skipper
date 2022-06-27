@@ -6,3 +6,5 @@ Download the latest release and drag the folder (inside the zip) into chrome://e
 I often leave Youtube on in a background tab to play music and nothing infuriates me further than having my music paused just because "The following content may contain topics related to suicide or self-harm."
 ## How come this isn't published on the Chrome Webstore?
 I'm not paying 5 dollars.
+## Known Issues:
+- When watching a playlist and a video with a content warning loads, it causes the video to play for less than a second before restarting from 0s. Probably caused by Youtube changing the URL on button click, then refreshing the video.
