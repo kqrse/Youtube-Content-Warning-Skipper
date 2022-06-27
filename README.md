@@ -7,4 +7,4 @@ I often leave Youtube on in a background tab to play music and nothing infuriate
 ## How come this isn't published on the Chrome Webstore?
 I'm not paying 5 dollars.
 ## Known Issues:
-- When watching a playlist and a video with a content warning loads, it causes the video to play for less than a second before restarting from 0s. Probably caused by Youtube changing the URL on button click, then refreshing the video.
+- When watching a playlist and a video with a content warning loads, it causes the video to play for less than a second before restarting from 0s. Probably caused by Youtube changing the URL on button click, then changing the URL again for reasons not known to this mortal world.
